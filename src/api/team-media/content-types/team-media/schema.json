@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_medias",
+  "info": {
+    "singularName": "team-media",
+    "pluralName": "team-medias",
+    "displayName": "Team_media"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Cover_img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
