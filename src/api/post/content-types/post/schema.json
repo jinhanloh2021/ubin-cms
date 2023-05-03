@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "default": "New Title"
+    },
+    "Date": {
+      "type": "date",
+      "required": true
+    },
+    "Author": {
+      "type": "string",
+      "default": "Ubin Kakis Team"
+    },
+    "Excerpt": {
+      "type": "text"
+    },
+    "Video_URL": {
+      "type": "string",
+      "regex": "^https?://[a-zA-Z0-9.-]+(?:\\.[a-zA-Z]{2,}){1,}(?:/[\\w\\.-]*)*/?$"
+    },
+    "Cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}
