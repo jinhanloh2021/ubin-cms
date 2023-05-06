@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home-media",
     "pluralName": "home-medias",
-    "displayName": "Home_media"
+    "displayName": "Home_media",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,35 +13,39 @@
   "pluginOptions": {},
   "attributes": {
     "Cover_image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Project_logo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Section_divider": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Team_image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Mission_text": {
+      "type": "text",
       "required": true
     }
   }
