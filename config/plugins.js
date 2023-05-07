@@ -21,10 +21,10 @@ module.exports = ({ env }) => ({
   "vercel-deploy": {
     enabled: true,
     config: {
-      deployHook:env("DEPLOY_HOOK"),
-      apiToken: env("<vercel-api-token>"),
-      appFilter: env("your-app-name-on-vercel"),
-      teamFilter: env("your-team-id-on-vercel"),
+      deployHook: env("DEPLOY_HOOK"),
+      apiToken: env("VERCEL_API_TOKEN"),
+      appFilter: env("VERCEL_APP_NAME"),
+      teamFilter: env("VERCEL_TEAM_ID"),
       roles: ["strapi-super-admin", "strapi-editor", "strapi-author"],
     },
   },
