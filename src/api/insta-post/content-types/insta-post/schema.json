@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "insta_posts",
+  "info": {
+    "singularName": "insta-post",
+    "pluralName": "insta-posts",
+    "displayName": "InstaPost",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PostURL": {
+      "type": "string",
+      "default": "https://www.instagram.com/ubinkakis",
+      "unique": true,
+      "required": true
+    },
+    "CoverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Date": {
+      "type": "datetime",
+      "default": "2022-12-31T16:00:00.000Z",
+      "required": true,
+      "unique": true
+    }
+  }
+}
