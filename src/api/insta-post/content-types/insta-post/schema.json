@@ -15,7 +15,7 @@
     "PostURL": {
       "type": "string",
       "default": "https://www.instagram.com/ubinkakis",
-      "unique": true,
+      "unique": false,
       "required": true
     },
     "CoverImage": {
