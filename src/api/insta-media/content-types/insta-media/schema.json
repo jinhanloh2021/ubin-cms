@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "insta_medias",
+  "info": {
+    "singularName": "insta-media",
+    "pluralName": "insta-medias",
+    "displayName": "Insta_media"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Cover_img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
